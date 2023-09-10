@@ -14,7 +14,6 @@ public class StartApplication {
     public String index(final Model model) {
         model.addAttribute("title", "Howdy Folks..Welcome to Devops Coaching by Coach Harshit!");
         model.addAttribute("msg", "Hello All..We are deploying springboot application into EKS cluster using Helm + Jenkins Pipeline!!!! Today is Sep 10th, 2023");
-        model.addAttribute("msg","WELCOME TO DEVOPS");
         return "index";
     }
 
